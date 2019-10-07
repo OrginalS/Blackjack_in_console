@@ -3,14 +3,14 @@ import time
 
 
 class Player:
-
+    """Representation of a player"""
     def __init__(self, money):
 
         self.money = money
 
 
 class Deck:
-
+    """Representation of a deck of cards"""
     def __init__(self, cards):
 
         self.cards = cards
