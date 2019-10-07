@@ -33,8 +33,7 @@ def hit(turn):
 
 
 def score(cards):
-    score = 0
-    ace = 0
+    score, ace = 0, 0
     for i in range(len(cards)):
         if cards[i] == "J" or cards[i] == "Q" or cards[i] == "K":
             score += 10
